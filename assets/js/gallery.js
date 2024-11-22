@@ -47,7 +47,7 @@
     const artwork = this.artworks[this.currentIndex];
     const artworkImg = document.getElementById('artwork');
     if (artworkImg) {
-        artworkImg.src = `/assets/images/${artwork.image}`;
+        artworkImg.src = `${window.SITE_BASE_URL}/assets/images/${artwork.image}`;
     }
     
     const classificationDiv = document.getElementById('classification');

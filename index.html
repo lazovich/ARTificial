@@ -4,6 +4,7 @@ permalink: /
 ---
 <script>
     window.ARTWORKS_DATA = {{ site.data.artworks | jsonify }};
+    window.SITE_BASE_URL = "{{ '' | relative_url }}";
 </script>
 
 <style>
