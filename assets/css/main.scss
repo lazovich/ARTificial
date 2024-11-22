@@ -1,0 +1,110 @@
+---
+---
+
+$matrix-green: #00ff41;
+$background: #0d0208;
+$text-color: $matrix-green;
+
+@font-face {
+  font-family: 'VT323';
+  src: url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+}
+
+body {
+  background: $background;
+  color: $text-color;
+  font-family: 'VT323', monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.artwork-display {
+  img {
+    width: 100%;
+    height: auto;
+    border: 2px solid $matrix-green;
+  }
+}
+
+.classification-display {
+  font-size: 1.2em;
+  padding: 20px;
+  border: 1px solid $matrix-green;
+  overflow: auto;
+  white-space: pre-line;  // This is the key addition
+  font-family: monospace;
+
+  .typing {
+    visibility: hidden;
+    &.visible {
+      visibility: visible;
+    }
+  }
+}
+
+.ascii-bar {
+  font-family: monospace;
+  white-space: pre;
+  margin: 5px 0;
+}
+
+.navigation {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  button {
+    background: transparent;
+    color: $matrix-green;
+    border: 1px solid $matrix-green;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    
+    &:hover {
+      background: rgba($matrix-green, 0.2);
+    }
+  }
+}
+
+.site-header {
+  //border-top: 5px solid #00ff41;
+  //border-bottom: 1px solid #00ff41;
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 55px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-title {
+  color: #00ff41 !important;
+  font-family: 'VT323', monospace;
+}
+
+.site-nav .page-link {
+  color: #00ff41;
+  font-family: 'VT323', monospace;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

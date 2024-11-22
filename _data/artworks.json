@@ -1,0 +1,63 @@
+{
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Mona Lisa",
+      "image": "mona_lisa_delaunay.jpg",
+      "classifications": {
+        "gender": {"Man": 0.9905, "Woman": 0.0095}, 
+        "race": {"white": 0.9973, "middle eastern": 0.0015, "latino hispanic": 0.0012},
+        "emotion": {"neutral": 0.9414, "happy": 0.0319, "sad": 0.0183, "fear": 0.0065, "angry": 0.0018}
+      }
+    },
+    {
+      "id": 2,
+      "title": "Girl with a pearl earring",
+      "image": "pearl_girl_delaunay.jpg",
+      "classifications": {
+        "gender": {"Man": 0.9958, "Woman": 0.0042}, 
+        "race": {"white": 0.8514, "middle eastern": 0.0948, "latino hispanic": 0.0498, "indian": 0.0033}, 
+        "emotion": {"sad": 0.6027, "fear": 0.1748, "angry": 0.1562, "neutral": 0.0377, "surprise": 0.0285},
+        "sexual orientation": {"bi": 0.841, "gay": 0.10, "straight": 0.06}
+      }
+    },
+    {
+      "id": 3,
+      "title": "Desperate Man",
+      "image": "desperate_man_delaunay.jpg",
+      "classifications": {
+        "gender": {"Man": 0.9731, "Woman": 0.0269}, 
+        "race": {"white": 0.9155, "latino hispanic": 0.0441, "middle eastern": 0.0401}, 
+        "emotion": {"neutral": 0.9661, "sad": 0.0279, "angry": 0.0056},
+        "sexual orientation": {"pan": 1.0},
+        "criminality": {"kinda sus": 0.75, "probs legit": 0.24, "def sus": 0.01}
+        
+      }
+    },
+    {
+      "id": 4,
+      "title": "Christ Carrying the Cross",
+      "image": "jesus_delaunay.jpg",
+      "classifications": {
+        "gender": {"Man": 0.9988, "Woman": 0.0012}, 
+        "race": {"white": 0.6344, "middle eastern": 0.2695}, 
+        "emotion": {"fear": 0.9145, "sad": 0.0544, "surprise": 0.0223},
+        "personality": {"pretty chill": 0.82, "emo": 0.15, "high maintenance": 0.03},  
+        "criminality": {"literally dead man walking": 0.99, "maybe a fraud": 0.01},
+        "sexual disposition": {"power bottom": 1.0},
+      }
+    },
+    {
+      "id": 5,
+      "title": "Head of a woman",
+      "image": "picasso_head_delaunay.jpg",
+      "classifications": {
+        "gender": {"yes": 1.0}, 
+        "race": {"mhm, that too": 1.0}, 
+        "emotion": {"fear": 1.0},
+        "humanity": {"none": 1.0},
+        "prediction confidence": {"I am right": 1.0}
+      }
+    }
+  ]
+}
