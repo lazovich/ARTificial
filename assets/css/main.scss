@@ -18,6 +18,10 @@ body {
   padding: 20px;
 }
 
+a {
+  color: #00ff41
+}
+
 .gallery-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -108,3 +112,4 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+

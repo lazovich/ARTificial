@@ -43,7 +43,7 @@
         "race": {"white": 0.6344, "middle eastern": 0.2695}, 
         "emotion": {"fear": 0.9145, "sad": 0.0544, "surprise": 0.0223},
         "personality": {"pretty chill": 0.82, "emo": 0.15, "high maintenance": 0.03},  
-        "criminality": {"literally dead man walking": 0.99, "maybe a fraud": 0.01},
+        "recidivism chance": {"about to die, so we're good": 0.99, "might come back in 3 days?": 0.01},
         "sexual disposition": {"power bottom": 1.0},
       }
     },
